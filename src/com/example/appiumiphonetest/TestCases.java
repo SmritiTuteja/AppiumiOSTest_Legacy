@@ -78,10 +78,9 @@ public class AppiumTest {
 			System.out.println("Launching App");
 
 			// two ways to launch app :
-
 			// you can set up appium in following manner - if you want to run on simulator
 			File appDir = new File(
-					"/Users/madhu/Desktop/smriti/iPhoneSimulator");
+					"/Users/Desktop/smriti/iPhoneSimulator"); //iphoneSimulator is the folder where .app is located
 			File app = new File(appDir, "App_iOS.app");
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			capabilities.setCapability(CapabilityType.BROWSER_NAME, "iOS");
@@ -151,9 +150,6 @@ public class AppiumTest {
 			SuccessMessage();
 			Thread.sleep(5000);
 
-			// signup alert
-			driver.findElement(By.name("Ok")).click();
-
 		} catch (AssertionError ex) {
 			AppendMessageWithTags(ex);
 		}
@@ -190,7 +186,7 @@ public class AppiumTest {
 		System.out.println("\nLog Out Check");
 		System.out.println("Logging out");
 		try {
-			//open menu
+			//open menu to logout
 			openMenu();
 
 			//log out
