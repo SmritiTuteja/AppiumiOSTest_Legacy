@@ -23,4 +23,4 @@ It includes :
 
 [3] Logging out.
 
-More information about uiautomator can be found here - http://smritituteja.in/ios-mobile-automation-using-appium/ in case any issues regarding setup.
+More information about Appium iOS can be found here - http://smritituteja.in/ios-mobile-automation-using-appium/ in case any issues regarding setup.
