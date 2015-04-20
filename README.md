@@ -12,13 +12,9 @@ Advantages of using Appium -
 
 
 
-One demo script has been added showing how to run tests. 
-It includes :
-
-[1] User authentication - signing in.
-
-[2] Searching in an app
-
-[3] Logging out.
+One demo script has been added showing how to run tests. It includes :
+- User authentication - signing in.
+- Searching in an app
+- Logging out.
 
 More information about Appium iOS can be found here - http://smritituteja.in/ios-mobile-automation-using-appium/ in case any issues regarding setup.
